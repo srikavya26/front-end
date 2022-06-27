@@ -1,0 +1,46 @@
+.logo ul{
+   
+    display: inline;
+}
+.logo ul li{
+    list-style:disc;
+    display:inline-flex;
+    padding: 8px 25px;
+}
+.logo ul a{
+    color: rgb(139, 80, 80);
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.logo ul li::after{
+    content: '';
+    width: 0;
+    height: auto;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.logo ul li:hover::after{
+    width: 100px;
+}
+.name{
+    height: 100vh;
+    background-image: linear-gradient(rgba(43, 36, 36, 0.8),rgba(173, 125, 125, 0.6)),url(digital.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.container{
+    align-items: stretch;
+}
+.card{
+    align-content: center;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
